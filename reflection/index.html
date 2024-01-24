@@ -46,6 +46,12 @@
       
     
     
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+    
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -117,43 +123,6 @@
     
     
     
-    
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
-        </button>
-      </nav>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list" role="presentation"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
     
     
   </nav>
@@ -361,7 +330,7 @@
 
   <h1>Reflection</h1>
 
-<h2 id="introduction">Introduction</h2>
+<div><h2 id="introduction">Introduction</h2>
 <p>From tiny droplets to expansive river deltas, the connection between water and river communities is deeply woven into the fabric of Indonesian life and has a profound impact on land policies in river governance. This influence is particularly pronounced in Kali Ciliwung, where the local population has adapted to annual floods, resisting relocation due to the river's sentimental value and community ties. This resistance extends to unsuccessful attempts to relocate settlers and corporate entities in the region, resulting in a decline in the river's environmental health and prospects for tourism. In this entry, we will delve into the potential consequences of redesigning green spaces, leading to distress migration and a potential decline in residents' quality of life. We will also explore how implementing various policies from Singapore could address these challenges and propose a game design to substantiate our hypotheses.</p>
 <h2 id="background">Background</h2>
 <p>Also known as “Kali Besar” (Big River), Kali Ciliwung was a strategic location for trade since pre-colonial times in Batavia. The governance of the river from up to downstream is split between 3 municipal governments (refer to annex 1). Kali Ciliwung consists of 2 main tributaries, Kali Ciesek and Kali Ciluar, and it originates from Mt. Mandala Wangi which is governed by the Bogor Regency government. 
@@ -378,7 +347,7 @@ Unlike Singapore, where we practice a top-down approach of governance, Indonesia
 <p>One prominent example is Komunitas Ciliwung Depok, where they manage their local freshwater sources, engage in farming activities (for protection and conservation), and heavily educate the members of Depok on the importance of Kali Ciliwung. These efforts have proven to be effective in reducing waste going into the river and improving attitudes towards the environment. </p>
 <p>Another example is Dompet Dhuafa and the locals downstream of Kali Ciliwung. They have been very active in fighting against upstream pollution in multiple ways, promoting tourism, and creating new ways of conservation - without support from their government. From fighting legal battles by themselves on multiple fronts, and engaging both local and international audiences, and trying new ways of protecting the riverfront (bamboo projects), we see the determination of this community when all odds are against them.</p>
 <p>The last example is the “best conservation” village along Kali Code. All by themselves, they have rallied the locals in participating in the waste bank efforts. To fund their efforts, they engage in tourism and fundraising activities through their plastic artworks. Their work has led to drastically decreased pollution and heightened environmental awareness. However, once again, their work is limited to their own kampong without external oversight by the government.</p>
-<p><continue here to describe how SG policies can be used to tackle problems & the game based on CLDs which aims to find out the best ways of implementation></p>
+<p><continue here to describe how sg policies can be used tackle problems the game based on clds which aims find out best ways of implementation></continue></p>
 <p>Firstly, our team believes in trying to achieve one united governing body for Kali Ciliwung. In this aspect, we intend to make the river a national level “Special Region” with its own legal rights and living status. This political move will create the impetus for effective collaboration and policy implementation. This lesson is one that Singapore had learnt through her years of rapid development. As the issue in Indonesia is poor co-management of the river across state boundaries and jurisdictions, having the entire river (including its pristine source) considered one entity allows the river governing body to set clear guidelines in river management and veto the lower political echelons. This sets the precedence for the rest of our goals of exporting Singapore’s successes.</p>
 <p>Water governance entails proper management of not just the river body, but the activities surrounding the river. As inspired by the Singapore river cleanup, we must establish proper housing and trading guidelines (and facilities). This is to stop misuse of the river and areas around it. For Indonesia’s case, we must additionally ensure that proper riverbank protection is in place to protect against floods.</p>
 <p>The clean-up of the Singapore River can provide a basis for a more efficient relocation strategy, public housing (Housing Development Board program) for the resettlement of inhabitants and the possibility of a special region for tourism through park connectors. The cleaning up of Singapore river took place from 1977 to 1987. The clean-up was focused on removing sources of pollution, removal of rubbish on the river and the building of a proper sewage infrastructure. In addition to the clean-up programme, the Singapore government had to relocate people to remove the pollution source. As a result, more than 40,000 illegal squatters were relocated to HDBs, affecting over 26,000 families, and were offered monetary compensation.  </p>
@@ -430,7 +399,7 @@ Unlike Singapore, where we practice a top-down approach of governance, Indonesia
 <h2 id="references">References</h2>
 <p>Joshi, Y. K., Tortajada, C., &amp; Biswas, A. K. (2012). Cleaning of the singapore river and Kallang Basin in Singapore: Human and environmental dimensions. AMBIO, 41(7), 777–781. https://doi.org/10.1007/s13280-012-0279-0 
 Lye, L. H. (2020). Public housing in Singapore: A success story in sustainable development. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.3595956 
-Park Connector Network Planning in Singapore: Integrating the green in ... (n.d.). https://www.researchgate.net/publication/277099922_Park_Connector_Network_Planning_in_Singapore_Integrating_the_Green_in_the_Garden_City </p>
+Park Connector Network Planning in Singapore: Integrating the green in ... (n.d.). https://www.researchgate.net/publication/277099922_Park_Connector_Network_Planning_in_Singapore_Integrating_the_Green_in_the_Garden_City </p></div>
 
 
 
