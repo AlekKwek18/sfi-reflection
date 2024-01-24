@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://alekkwek18.github.io/sfi-reflection/game/</loc>
+         <lastmod>2024-01-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://alekkwek18.github.io/sfi-reflection/intro/</loc>
          <lastmod>2024-01-24</lastmod>
          <changefreq>daily</changefreq>
@@ -17,6 +22,16 @@
     </url>
     <url>
          <loc>https://alekkwek18.github.io/sfi-reflection/prob/</loc>
+         <lastmod>2024-01-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://alekkwek18.github.io/sfi-reflection/proposedsolution/</loc>
+         <lastmod>2024-01-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://alekkwek18.github.io/sfi-reflection/ref/</loc>
          <lastmod>2024-01-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
