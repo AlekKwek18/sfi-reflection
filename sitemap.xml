@@ -2,42 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://alekkwek18.github.io/sfi-reflection/</loc>
-         <lastmod>2024-01-24</lastmod>
+         <lastmod>2024-01-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://alekkwek18.github.io/sfi-reflection/game/</loc>
-         <lastmod>2024-01-24</lastmod>
+         <lastmod>2024-01-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://alekkwek18.github.io/sfi-reflection/intro/</loc>
-         <lastmod>2024-01-24</lastmod>
+         <lastmod>2024-01-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://alekkwek18.github.io/sfi-reflection/pollution/</loc>
-         <lastmod>2024-01-24</lastmod>
+         <lastmod>2024-01-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://alekkwek18.github.io/sfi-reflection/prob/</loc>
-         <lastmod>2024-01-24</lastmod>
+         <lastmod>2024-01-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://alekkwek18.github.io/sfi-reflection/proposedsolution/</loc>
-         <lastmod>2024-01-24</lastmod>
+         <lastmod>2024-01-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://alekkwek18.github.io/sfi-reflection/ref/</loc>
-         <lastmod>2024-01-24</lastmod>
+         <lastmod>2024-01-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://alekkwek18.github.io/sfi-reflection/reflection/</loc>
-         <lastmod>2024-01-24</lastmod>
+         <lastmod>2024-01-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://alekkwek18.github.io/sfi-reflection/blog/</loc>
+         <lastmod>2024-01-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
